@@ -1,0 +1,224 @@
+/* Fuente base */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #745a35;
+  color: #f7f7f7;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 1.8em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Secciones generales */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #6b4f4f;
+  margin-bottom: 20px;
+}
+
+/* Bienvenida */
+.bienvenida {
+  text-align: center;
+  background-color: #f1e4d1;
+  padding: 40px 20px;
+  border-radius: 8px;
+}
+
+/* Menú */
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.menu-items article {
+  background-color: #fff;
+  padding: 20px;
+  flex: 1 1 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.menu-items h3 {
+  margin-top: 0;
+  color: #4e342e;
+}
+
+/* Nosotros y contacto */
+#nosotros, #contacto {
+  background-color: #f9f4ef;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+/* Pie de página */
+footer {
+  background-color: #6b4f4f;
+  color: #fd0303;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-items {
+    flex-direction: column;
+  }
+}
+/* Estilo global del cuerpo */
+body {
+  font-family: 'Roboto', sans-serif; /* Fuente del texto */
+  margin: 0;
+  padding: 0;
+  background-color: #fdfaf6;
+  background-image: url('../medios/Como-decorar-una-cafeteria-pequena-con-poco-dinero.jpg');
+  background-size: cover;           /* Ajusta la imagen al tamaño de la pantalla */
+  background-position: center center; /* Centra la imagen */
+  background-attachment: fixed;      /* Hace que la imagen de fondo no se mueva al hacer scroll */
+  background-repeat: no-repeat;      /* No repite la imagen de fondo */
+  color: #333;                      /* Color del texto */
+}
+
+/* Estilo para el menú */
+#menu {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-items article {
+  background-color: #fff;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.menu-items h3 {
+  margin-top: 0;
+  color: #000000;
+}
+
+.menu-items .precio {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #5df505;
+}
+h1 {
+  background-color: #7c6a42;  /* Fondo blanco */
+  color: #000000;             /* Color de texto café */
+  padding: 15px 25px;         /* Espaciado interno */
+  border-radius: 8px;         /* Bordes redondeados */
+  display: inline-block;      /* Ajusta el tamaño al contenido */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15); /* Sombra para dar profundidad */
+  margin: 20px auto;
+  text-align: center;
+}
+#contacto {
+  background-color: #f9f4ef;
+  padding: 40px 20px;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.formulario-contacto button {
+  background-color: #9900ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.formulario-contacto button:hover {
+  background-color: #7c00cc;
+}
+.info-contacto {
+  margin-top: 30px;
+  text-align: center;
+  color: #4e342e;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
